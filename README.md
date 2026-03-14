@@ -81,6 +81,24 @@ arrays, not undefined. Use TypeScript for type safety.
 - Node.js 18+
 - `OPENAI_API_KEY` environment variable
 
+## FAQ
+
+### What languages does ai-stack-trace support?
+
+ai-stack-trace parses errors from JavaScript, TypeScript, Python, Java, Go, Rust, Ruby, PHP, and C#. The AI analysis works with any language that produces readable stack traces.
+
+### Does it send my code to OpenAI?
+
+Only the stack trace and optionally provided context files are sent. Your full codebase is never uploaded. Use `--no-ai` for fully offline parsing.
+
+### How is this different from searching the error on Google?
+
+ai-stack-trace analyzes your specific code context, not generic solutions. It reads your actual files and suggests fixes tailored to your codebase.
+
+### Can I use a different AI provider?
+
+Currently OpenAI only. Anthropic and local models are planned for future releases.
+
 ## License
 
 MIT - Built by [LXGIC Studios](https://github.com/lxgicstudios)
