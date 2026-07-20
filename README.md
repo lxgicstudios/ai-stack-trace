@@ -2,6 +2,15 @@
 
 AI-powered stack trace analyzer. Paste errors, get solutions.
 
+
+## Works With
+
+- 🤖 Claude / Claude Code
+- 🔵 Cursor
+- 💚 GPT / ChatGPT
+- ⚡ Copilot
+- 🧩 MCP servers
+
 ## Install & Run
 
 ```bash

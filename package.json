@@ -13,7 +13,15 @@
     "ai",
     "cli",
     "troubleshoot",
-    "stacktrace"
+    "stacktrace",
+    "developer-tools",
+    "devtools",
+    "typescript",
+    "automation",
+    "diagnostics",
+    "coding-agent",
+    "developer-experience",
+    "error-handling"
   ],
   "author": "LXGIC Studios",
   "license": "MIT",
